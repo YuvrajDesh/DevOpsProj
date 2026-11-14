@@ -1,0 +1,37 @@
+#nometa BOOT-INF/lib/checker-qual-3.43.0.jar 
+artifactId=error_prone_annotations groupId=com.google.errorprone version=2.28.0 
+groupId=com.google.guava artifactId=failureaccess version=1.0.2 
+groupId=com.google.guava artifactId=guava version=33.3.1-jre 
+artifactId=j2objc-annotations groupId=com.google.j2objc version=3.0.0 
+artifactId=jackson-annotations groupId=com.fasterxml.jackson.core version=2.17.2 
+artifactId=jackson-core groupId=com.fasterxml.jackson.core version=2.17.2 
+artifactId=jackson-databind groupId=com.fasterxml.jackson.core version=2.17.2 
+version=2.17.2 groupId=com.fasterxml.jackson.datatype artifactId=jackson-datatype-jdk8 
+version=2.17.2 groupId=com.fasterxml.jackson.datatype artifactId=jackson-datatype-jsr310 
+version=2.17.2 groupId=com.fasterxml.jackson.module artifactId=jackson-module-parameter-names 
+artifactId=jakarta.annotation-api groupId=jakarta.annotation version=2.1.1 
+version=3.0.2 groupId=com.google.code.findbugs artifactId=jsr305 
+artifactId=jul-to-slf4j groupId=org.slf4j version=2.0.16 
+version=9999.0-empty-to-avoid-conflict-with-guava groupId=com.google.guava artifactId=listenablefuture 
+artifactId=log4j-api groupId=org.apache.logging.log4j version=2.23.1 
+artifactId=log4j-to-slf4j groupId=org.apache.logging.log4j version=2.23.1 
+artifactId=logback-classic groupId=ch.qos.logback version=1.5.11 
+artifactId=logback-core groupId=ch.qos.logback version=1.5.11 
+#nometa BOOT-INF/lib/micrometer-commons-1.13.6.jar 
+#nometa BOOT-INF/lib/micrometer-observation-1.13.6.jar 
+artifactId=slf4j-api groupId=org.slf4j version=2.0.16 
+groupId=org.yaml artifactId=snakeyaml version=2.2 
+#nometa BOOT-INF/lib/spring-aop-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-beans-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-boot-3.3.5.jar 
+#nometa BOOT-INF/lib/spring-boot-autoconfigure-3.3.5.jar 
+#nometa BOOT-INF/lib/spring-boot-jarmode-tools-3.3.5.jar 
+#nometa BOOT-INF/lib/spring-context-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-core-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-expression-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-jcl-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-web-6.1.14.jar 
+#nometa BOOT-INF/lib/spring-webmvc-6.1.14.jar 
+#nometa BOOT-INF/lib/tomcat-embed-core-10.1.31.jar 
+#nometa BOOT-INF/lib/tomcat-embed-el-10.1.31.jar 
+#nometa BOOT-INF/lib/tomcat-embed-websocket-10.1.31.jar 

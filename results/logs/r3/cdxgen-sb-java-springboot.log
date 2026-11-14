@@ -1,0 +1,15 @@
++------------------------+------------+--------------------------+----------------------------------------------------+
+|                                           SECURE MODE: Environment audit                                            |
+|                                                        1 low                                                        |
++------------------------+------------+--------------------------+----------------------------------------------------+
+| Category               | Severity   | Variable(s)              | Details                                            |
++------------------------+------------+--------------------------+----------------------------------------------------+
+| Credential Exposure    | LOW        | ANTIGRAVITY_CSRF_TOKEN   | Credential-like environment variables are set. Bui |
+|                        |            |                          | ld tools or install scripts invoked during SBOM ge |
+|                        |            |                          | neration may read inherited environment variables. |
+|                        |            |                          | Mitigation: Unset unneeded secrets when scanning u |
+|                        |            |                          | ntrusted repositories. Prefer ephemeral, scoped CI |
+|                        |            |                          |  credentials injected only for the step that needs |
+|                        |            |                          |  them.                                             |
++------------------------+------------+--------------------------+----------------------------------------------------+
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-lL9gXL/all-layers/opt/java/openjdk/lib/jrt-fs.jar. The SBOM won't include this artifact.

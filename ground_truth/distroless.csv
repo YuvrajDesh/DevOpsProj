@@ -1,0 +1,8 @@
+eco,name,version,layer
+deb,base-files,12.4+deb12u15,os
+deb,ca-certificates,20250419~deb12u1,os
+deb,libc6,2.36-9+deb12u14,os
+deb,libssl3,3.0.20-1~deb12u2,os
+deb,media-types,10.0.0,os
+deb,netbase,6.4,os
+deb,tzdata,2026b-0+deb12u1,os

@@ -1,0 +1,13 @@
+\begin{table}[t]\centering\caption{Failure patterns $\times$ tool (counts of affected component entries, all images). P1 is a capability beyond the ground truth, not a failure.}\label{tab:failures}
+\scriptsize\begin{tabular}{p{4.6cm}rrr}\toprule
+Pattern & Syft & Trivy & cdxgen \\\midrule
+OS source/origin package reported as installed package & 0 & 0 & 439 \\
+manifest version range reported as version (requirements.txt) & 0 & 0 & 5 \\
+synthesized/incorrect Maven groupId (jar lacks pom.properties) & 20 & 0 & 0 \\
+JDK-internal jar reported as Maven package (jrt-fs) & 2 & 0 & 0 \\
+nested jar inside fat jar missed & 2 & 0 & 1 \\
+non-package artifact without PURL (e.g. bundled .exe launchers) & 18 & 0 & 0 \\
+duplicate (eco,name,version) entries (mostly legitimate multiple install paths) & 132 & 117 & 56 \\
+devDependency (in lock, not installed) reported & 0 & 0 & 0 \\
+language runtime binary detected (node/python/openjdk) [beyond GT] & 8 & 0 & 4 \\
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,11 @@
+\begin{table*}[t]\centering\caption{Precision / recall / F1 against ground truth, pooled over all images with ground truth, matched on (ecosystem, name, version). $|GT|$ = number of ground-truth components.}\label{tab:byeco}
+\small\begin{tabular}{lr ccc ccc ccc}\toprule
+ & & \multicolumn{3}{c}{Syft} & \multicolumn{3}{c}{Trivy} & \multicolumn{3}{c}{cdxgen}\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
+Eco & $|GT|$ & P & R & F1 & P & R & F1 & P & R & F1 \\\midrule
+deb & 1053 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 0.707 & 1.000 & 0.828 \\
+apk & 14 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 0.824 & 1.000 & 0.903 \\
+pypi & 32 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 0.865 & 1.000 & 0.928 \\
+npm & 798 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+maven & 38 & 0.900 & 0.947 & 0.923 & 1.000 & 1.000 & 1.000 & 1.000 & 0.974 & 0.987 \\
+\bottomrule\end{tabular}\end{table*}

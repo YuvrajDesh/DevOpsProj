@@ -1,0 +1,23 @@
+\begin{table}[t]\centering\caption{Per-image F1 (name+version) by layer: OS packages vs.\ language packages.}\label{tab:perimage}
+\scriptsize\begin{tabular}{llccc}\toprule
+Image & Layer & Syft & Trivy & cdxgen \\\midrule
+alpine & os & 1.000 & 1.000 & 0.903 \\
+debian & os & 1.000 & 1.000 & 0.826 \\
+distroless & os & 1.000 & 1.000 & 0.875 \\
+node & lang & 1.000 & 1.000 & 1.000 \\
+node & os & 1.000 & 1.000 & 0.826 \\
+python & lang & 1.000 & 1.000 & 1.000 \\
+python & os & 1.000 & 1.000 & 0.827 \\
+sb-java-springboot & lang & 0.923 & 1.000 & 0.987 \\
+sb-java-springboot & os & 1.000 & 1.000 & 0.834 \\
+sb-node-lock & lang & 1.000 & 1.000 & 1.000 \\
+sb-node-lock & os & 1.000 & 1.000 & 0.826 \\
+sb-node-nolock & lang & 1.000 & 1.000 & 1.000 \\
+sb-node-nolock & os & 1.000 & 1.000 & 0.826 \\
+sb-py-loose & lang & 1.000 & 1.000 & 0.848 \\
+sb-py-loose & os & 1.000 & 1.000 & 0.827 \\
+sb-py-pinned & lang & 1.000 & 1.000 & 1.000 \\
+sb-py-pinned & os & 1.000 & 1.000 & 0.827 \\
+tomcat & os & 1.000 & 1.000 & 0.832 \\
+ubuntu & os & 1.000 & 1.000 & 0.825 \\
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,13 @@
+image,cdxgen,syft,trivy
+alpine,1.78,1.38,0.49
+debian,4.02,1.96,0.83
+distroless,2.04,1.25,0.54
+node,9.5,5.18,0.48
+python,6.08,2.06,0.54
+sb-java-springboot,20.8,3.21,0.61
+sb-node-lock,11.29,4.61,0.63
+sb-node-nolock,12.06,5.01,0.6
+sb-py-loose,23.64,2.63,0.54
+sb-py-pinned,8.9,2.49,0.87
+tomcat,23.67,3.18,1.5
+ubuntu,5.42,2.23,0.83

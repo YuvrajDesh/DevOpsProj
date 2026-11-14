@@ -1,0 +1,28 @@
+pattern,tool,count,images,example
+F1 OS source/origin package reported as installed package,syft,0,,
+F2 manifest version range reported as version (requirements.txt),syft,0,,
+F3 synthesized/incorrect Maven groupId (jar lacks pom.properties),syft,20,sb-java-springboot;tomcat,sb-java-springboot: org.springframework.boot.loader.launch.jarlauncher:app
+F4 JDK-internal jar reported as Maven package (jrt-fs),syft,2,sb-java-springboot;tomcat,sb-java-springboot: jrt-fs:jrt-fs
+F5 nested jar inside fat jar missed,syft,2,sb-java-springboot,sb-java-springboot: org.checkerframework:checker-qual
+F6 non-package artifact without PURL (e.g. bundled .exe launchers),syft,18,python;sb-py-loose;sb-py-pinned,sb-py-pinned: simple launcher
+"F7 duplicate (eco,name,version) entries (mostly legitimate multiple install paths)",syft,132,node;python;sb-node-lock;sb-node-nolock;sb-py-loose;sb-py-pinned,sb-node-lock: @npmcli/agent
+"F8 devDependency (in lock, not installed) reported",syft,0,,
+P1 language runtime binary detected (node/python/openjdk) [beyond GT],syft,8,node;python;sb-java-springboot;sb-node-lock;sb-node-nolock;sb-py-loose;sb-py-pinned;tomcat,sb-java-springboot: openjdk
+F1 OS source/origin package reported as installed package,trivy,0,,
+F2 manifest version range reported as version (requirements.txt),trivy,0,,
+F3 synthesized/incorrect Maven groupId (jar lacks pom.properties),trivy,0,,
+F4 JDK-internal jar reported as Maven package (jrt-fs),trivy,0,,
+F5 nested jar inside fat jar missed,trivy,0,,
+F6 non-package artifact without PURL (e.g. bundled .exe launchers),trivy,0,,
+"F7 duplicate (eco,name,version) entries (mostly legitimate multiple install paths)",trivy,117,node;sb-node-lock;sb-node-nolock,sb-node-lock: minipass
+"F8 devDependency (in lock, not installed) reported",trivy,0,,
+P1 language runtime binary detected (node/python/openjdk) [beyond GT],trivy,0,,
+F1 OS source/origin package reported as installed package,cdxgen,439,alpine;debian;distroless;node;python;sb-java-springboot;sb-node-lock;sb-node-nolock;sb-py-loose;sb-py-pinned;tomcat;ubuntu,sb-java-springboot: gcc-12
+F2 manifest version range reported as version (requirements.txt),cdxgen,5,sb-py-loose,sb-py-loose: requests
+F3 synthesized/incorrect Maven groupId (jar lacks pom.properties),cdxgen,0,,
+F4 JDK-internal jar reported as Maven package (jrt-fs),cdxgen,0,,
+F5 nested jar inside fat jar missed,cdxgen,1,sb-java-springboot,sb-java-springboot: org.apache.tomcat.embed:tomcat-embed-websocket
+F6 non-package artifact without PURL (e.g. bundled .exe launchers),cdxgen,0,,
+"F7 duplicate (eco,name,version) entries (mostly legitimate multiple install paths)",cdxgen,56,debian;node;python;sb-java-springboot;sb-node-lock;sb-node-nolock;sb-py-loose;sb-py-pinned;tomcat;ubuntu,sb-java-springboot: fontconfig
+"F8 devDependency (in lock, not installed) reported",cdxgen,0,,
+P1 language runtime binary detected (node/python/openjdk) [beyond GT],cdxgen,4,sb-py-loose;sb-py-pinned,sb-py-pinned: random-build-examples

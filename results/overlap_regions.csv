@@ -1,0 +1,8 @@
+tools,exclusive_count
+syft+trivy+cdxgen,1953
+cdxgen,452
+syft,32
+trivy+cdxgen,19
+syft+trivy,2
+trivy,0
+syft+cdxgen,0

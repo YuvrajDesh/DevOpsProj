@@ -1,0 +1,44 @@
+
+The following files have been resolved:
+   org.springframework.boot:spring-boot-starter-web:jar:3.3.5:compile -- module spring.boot.starter.web [auto]
+   org.springframework.boot:spring-boot-starter:jar:3.3.5:compile -- module spring.boot.starter [auto]
+   org.springframework.boot:spring-boot:jar:3.3.5:compile -- module spring.boot [auto]
+   org.springframework.boot:spring-boot-autoconfigure:jar:3.3.5:compile -- module spring.boot.autoconfigure [auto]
+   org.springframework.boot:spring-boot-starter-logging:jar:3.3.5:compile -- module spring.boot.starter.logging [auto]
+   ch.qos.logback:logback-classic:jar:1.5.11:compile -- module ch.qos.logback.classic
+   ch.qos.logback:logback-core:jar:1.5.11:compile -- module ch.qos.logback.core
+   org.apache.logging.log4j:log4j-to-slf4j:jar:2.23.1:compile -- module org.apache.logging.log4j.to.slf4j
+   org.apache.logging.log4j:log4j-api:jar:2.23.1:compile -- module org.apache.logging.log4j
+   org.slf4j:jul-to-slf4j:jar:2.0.16:compile -- module jul.to.slf4j
+   jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile -- module jakarta.annotation
+   org.yaml:snakeyaml:jar:2.2:compile -- module org.yaml.snakeyaml
+   org.springframework.boot:spring-boot-starter-json:jar:3.3.5:compile -- module spring.boot.starter.json [auto]
+   com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile -- module com.fasterxml.jackson.databind
+   com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile -- module com.fasterxml.jackson.annotation
+   com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile -- module com.fasterxml.jackson.core
+   com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.17.2:compile -- module com.fasterxml.jackson.datatype.jdk8
+   com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.2:compile -- module com.fasterxml.jackson.datatype.jsr310
+   com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.17.2:compile -- module com.fasterxml.jackson.module.paramnames
+   org.springframework.boot:spring-boot-starter-tomcat:jar:3.3.5:compile -- module spring.boot.starter.tomcat [auto]
+   org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.31:compile -- module org.apache.tomcat.embed.core
+   org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.31:compile -- module org.apache.tomcat.embed.el
+   org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.31:compile -- module org.apache.tomcat.embed.websocket
+   org.springframework:spring-web:jar:6.1.14:compile -- module spring.web [auto]
+   org.springframework:spring-beans:jar:6.1.14:compile -- module spring.beans [auto]
+   io.micrometer:micrometer-observation:jar:1.13.6:compile -- module micrometer.observation [auto]
+   io.micrometer:micrometer-commons:jar:1.13.6:compile -- module micrometer.commons [auto]
+   org.springframework:spring-webmvc:jar:6.1.14:compile -- module spring.webmvc [auto]
+   org.springframework:spring-aop:jar:6.1.14:compile -- module spring.aop [auto]
+   org.springframework:spring-context:jar:6.1.14:compile -- module spring.context [auto]
+   org.springframework:spring-expression:jar:6.1.14:compile -- module spring.expression [auto]
+   com.google.guava:guava:jar:33.3.1-jre:compile -- module com.google.common [auto]
+   com.google.guava:failureaccess:jar:1.0.2:compile -- module com.google.common.util.concurrent.internal [auto]
+   com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile -- module listenablefuture (auto)
+   com.google.code.findbugs:jsr305:jar:3.0.2:compile -- module jsr305 (auto)
+   org.checkerframework:checker-qual:jar:3.43.0:compile -- module org.checkerframework.checker.qual
+   com.google.errorprone:error_prone_annotations:jar:2.28.0:compile -- module com.google.errorprone.annotations
+   com.google.j2objc:j2objc-annotations:jar:3.0.0:compile -- module com.google.j2objc.annotations
+   org.slf4j:slf4j-api:jar:2.0.16:compile -- module org.slf4j
+   org.springframework:spring-core:jar:6.1.14:compile -- module spring.core [auto]
+   org.springframework:spring-jcl:jar:6.1.14:compile -- module spring.jcl [auto]
+

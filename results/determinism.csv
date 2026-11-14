@@ -1,0 +1,10 @@
+image,tool,runs,sizes,identical,max_symdiff
+sb-java-springboot,syft,4,184/184/184/184,True,0
+sb-java-springboot,trivy,4,181/181/181/181,True,0
+sb-java-springboot,cdxgen,4,237/237/237/237,True,0
+sb-node-lock,syft,4,381/381/381/381,True,0
+sb-node-lock,trivy,4,380/380/380/380,True,0
+sb-node-lock,cdxgen,4,419/419/419/419,True,0
+sb-py-loose,syft,4,121/121/121/121,True,0
+sb-py-loose,trivy,4,119/119/119/119,True,0
+sb-py-loose,cdxgen,4,172/172/172/172,True,0

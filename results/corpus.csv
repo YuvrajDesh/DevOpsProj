@@ -1,0 +1,13 @@
+image,ref,digest,image_id,ecosystem,self_built,lock_file,size_mb
+sb-java-springboot,sbom/sb-java-springboot:1.0,sbom/sb-java-springboot@sha256:104ffd6c9cb507f01aa516a26e132e7f0dae4af9a3371a329ba17dc8ae5da012,sha256:104ffd6c9cb507f01aa516a26e132e7f0dae4af9a3371a329ba17dc8ae5da012,java,yes,no(fat-jar),114.5
+tomcat,tomcat:10.1.31-jre21-temurin-jammy,tomcat@sha256:72cb796898f2630ca03062fef5becf3b9d8779d1e88f7ffc8fa0f70b772f836a,sha256:72cb796898f2630ca03062fef5becf3b9d8779d1e88f7ffc8fa0f70b772f836a,java,no,n/a,0.0
+sb-node-lock,sbom/sb-node-lock:1.0,sbom/sb-node-lock@sha256:8e1c73c3e3dbb86fee1778503eae2567ff43cc6cbc6fadc840fbc13de6ace01b,sha256:8e1c73c3e3dbb86fee1778503eae2567ff43cc6cbc6fadc840fbc13de6ace01b,node,yes,yes,75.1
+sb-node-nolock,sbom/sb-node-nolock:1.0,sbom/sb-node-nolock@sha256:d2728c34b2b6db6e08b13714a2e509ceccb7a7015acd946782275f32c9004f76,sha256:d2728c34b2b6db6e08b13714a2e509ceccb7a7015acd946782275f32c9004f76,node,yes,no,75.2
+node,node:22.11.0-bookworm-slim,node@sha256:f035ba7ffee18f67200e2eb8018e0f13c954ec16338f264940f701997e3c12da,sha256:f035ba7ffee18f67200e2eb8018e0f13c954ec16338f264940f701997e3c12da,node,no,n/a,0.0
+sb-py-pinned,sbom/sb-py-pinned:1.0,sbom/sb-py-pinned@sha256:1395364c8b058bc61fc9114cf08a68b319868db69cd0683b39f7426b37345292,sha256:1395364c8b058bc61fc9114cf08a68b319868db69cd0683b39f7426b37345292,python,yes,yes(pinned),68.9
+sb-py-loose,sbom/sb-py-loose:1.0,sbom/sb-py-loose@sha256:8e7fd34ff1d54936c71416798e1a1c3231c7b129947c75bad27d2969b9048054,sha256:8e7fd34ff1d54936c71416798e1a1c3231c7b129947c75bad27d2969b9048054,python,yes,no(ranges),75.8
+python,python:3.12.7-slim-bookworm,python@sha256:60d9996b6a8a3689d36db740b49f4327be3be09a21122bd02fb8895abb38b50d,sha256:60d9996b6a8a3689d36db740b49f4327be3be09a21122bd02fb8895abb38b50d,python,no,n/a,0.0
+debian,debian:12.7-slim,debian@sha256:36e591f228bb9b99348f584e83f16e012c33ba5cad44ef5981a1d7c0a93eca22,sha256:36e591f228bb9b99348f584e83f16e012c33ba5cad44ef5981a1d7c0a93eca22,os,no,n/a,0.0
+ubuntu,ubuntu:24.04,ubuntu@sha256:68ee22004a9109b44973313b02ff7b1de250f1de0f5ecb628d73f579aaff33ac,sha256:68ee22004a9109b44973313b02ff7b1de250f1de0f5ecb628d73f579aaff33ac,os,no,n/a,0.0
+alpine,alpine:3.20.3,alpine@sha256:1e42bbe2508154c9126d48c2b8a75420c3544343bf86fd041fb7527e017a4b4a,sha256:1e42bbe2508154c9126d48c2b8a75420c3544343bf86fd041fb7527e017a4b4a,os,no,n/a,0.0
+distroless,gcr.io/distroless/base-debian12:latest,gcr.io/distroless/base-debian12@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84,sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84,os,no,n/a,0.0

@@ -1,0 +1,56 @@
++------------------------+------------+--------------------------+----------------------------------------------------+
+|                                           SECURE MODE: Environment audit                                            |
+|                                                        1 low                                                        |
++------------------------+------------+--------------------------+----------------------------------------------------+
+| Category               | Severity   | Variable(s)              | Details                                            |
++------------------------+------------+--------------------------+----------------------------------------------------+
+| Credential Exposure    | LOW        | ANTIGRAVITY_CSRF_TOKEN   | Credential-like environment variables are set. Bui |
+|                        |            |                          | ld tools or install scripts invoked during SBOM ge |
+|                        |            |                          | neration may read inherited environment variables. |
+|                        |            |                          | Mitigation: Unset unneeded secrets when scanning u |
+|                        |            |                          | ntrusted repositories. Prefer ephemeral, scoped CI |
+|                        |            |                          |  credentials injected only for the step that needs |
+|                        |            |                          |  them.                                             |
++------------------------+------------+--------------------------+----------------------------------------------------+
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/opt/java/openjdk/lib/jrt-fs.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-de.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/bin/bootstrap.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/webapps.dist/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/websocket-client-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/websocket-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-websocket.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-util.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-util-scan.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-jni.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-jdbc.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-zh-CN.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-ru.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-pt-BR.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-ko.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-ja.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-fr.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-es.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-de.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-i18n-cs.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-dbcp.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-coyote.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-coyote-ffm.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/tomcat-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/servlet-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/jsp-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/jaspic-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/jasper.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/jasper-el.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/jakartaee-migration-1.0.8-shaded.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/el-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/ecj-4.27.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/catalina.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/catalina-tribes.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/catalina-storeconfig.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/catalina-ssi.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/catalina-ha.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/catalina-ant.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/lib/annotations-api.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/bin/tomcat-juli.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/bin/commons-daemon.jar. The SBOM won't include this artifact.
+Unable to extract component information from /var/folders/sq/_8dbxmm90wvfh3fb8p0f18t00000gn/T/docker-images-L7rd7n/all-layers/usr/local/tomcat/bin/bootstrap.jar. The SBOM won't include this artifact.

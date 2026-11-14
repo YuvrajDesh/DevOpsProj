@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@cyclonedx/cdxgen": "^12.9.0"
+  }
+}

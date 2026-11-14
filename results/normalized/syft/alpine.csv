@@ -1,0 +1,15 @@
+eco,name,version,purl,raw_name,raw_version,ctype,has_purl,purl_valid,has_version,has_license,has_hash,has_supplier,has_cpe
+apk,alpine-baselayout,3.6.5-r0,pkg:apk/alpine/alpine-baselayout@3.6.5-r0?arch=x86_64&distro=alpine-3.20.3,alpine-baselayout,3.6.5-r0,library,1,1,1,1,0,1,1
+apk,alpine-baselayout-data,3.6.5-r0,pkg:apk/alpine/alpine-baselayout-data@3.6.5-r0?arch=x86_64&distro=alpine-3.20.3&upstream=alpine-baselayout,alpine-baselayout-data,3.6.5-r0,library,1,1,1,1,0,1,1
+apk,alpine-keys,2.4-r1,pkg:apk/alpine/alpine-keys@2.4-r1?arch=x86_64&distro=alpine-3.20.3,alpine-keys,2.4-r1,library,1,1,1,1,0,1,1
+apk,apk-tools,2.14.4-r0,pkg:apk/alpine/apk-tools@2.14.4-r0?arch=x86_64&distro=alpine-3.20.3,apk-tools,2.14.4-r0,library,1,1,1,1,0,1,1
+apk,busybox,1.36.1-r29,pkg:apk/alpine/busybox@1.36.1-r29?arch=x86_64&distro=alpine-3.20.3,busybox,1.36.1-r29,library,1,1,1,1,0,1,1
+apk,busybox-binsh,1.36.1-r29,pkg:apk/alpine/busybox-binsh@1.36.1-r29?arch=x86_64&distro=alpine-3.20.3&upstream=busybox,busybox-binsh,1.36.1-r29,library,1,1,1,1,0,1,1
+apk,ca-certificates-bundle,20240705-r0,pkg:apk/alpine/ca-certificates-bundle@20240705-r0?arch=x86_64&distro=alpine-3.20.3&upstream=ca-certificates,ca-certificates-bundle,20240705-r0,library,1,1,1,1,0,1,1
+apk,libcrypto3,3.3.2-r0,pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro=alpine-3.20.3&upstream=openssl,libcrypto3,3.3.2-r0,library,1,1,1,1,0,1,1
+apk,libssl3,3.3.2-r0,pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=alpine-3.20.3&upstream=openssl,libssl3,3.3.2-r0,library,1,1,1,1,0,1,1
+apk,musl,1.2.5-r0,pkg:apk/alpine/musl@1.2.5-r0?arch=x86_64&distro=alpine-3.20.3,musl,1.2.5-r0,library,1,1,1,1,0,1,1
+apk,musl-utils,1.2.5-r0,pkg:apk/alpine/musl-utils@1.2.5-r0?arch=x86_64&distro=alpine-3.20.3&upstream=musl,musl-utils,1.2.5-r0,library,1,1,1,1,0,1,1
+apk,scanelf,1.3.7-r2,pkg:apk/alpine/scanelf@1.3.7-r2?arch=x86_64&distro=alpine-3.20.3&upstream=pax-utils,scanelf,1.3.7-r2,library,1,1,1,1,0,1,1
+apk,ssl_client,1.36.1-r29,pkg:apk/alpine/ssl_client@1.36.1-r29?arch=x86_64&distro=alpine-3.20.3&upstream=busybox,ssl_client,1.36.1-r29,library,1,1,1,1,0,1,1
+apk,zlib,1.3.1-r1,pkg:apk/alpine/zlib@1.3.1-r1?arch=x86_64&distro=alpine-3.20.3,zlib,1.3.1-r1,library,1,1,1,1,0,1,1

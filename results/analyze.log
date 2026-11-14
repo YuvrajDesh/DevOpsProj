@@ -1,0 +1,114 @@
+.venv/bin/python scripts/normalize.py
+GT alpine: 14 components
+GT debian: 88 components
+GT distroless: 7 components
+GT node: 300 components
+GT python: 106 components
+GT sb-java-springboot: 181 components
+GT sb-node-lock: 380 components
+GT sb-node-nolock: 382 components
+GT sb-py-loose: 119 components
+GT sb-py-pinned: 122 components
+GT tomcat: 144 components
+GT ubuntu: 92 components
+NORM syft   alpine: 14 components
+NORM syft   debian: 88 components
+NORM syft   distroless: 7 components
+NORM syft   node: 335 components
+NORM syft   python: 113 components
+NORM syft   sb-java-springboot: 184 components
+NORM syft   sb-node-lock: 421 components
+NORM syft   sb-node-nolock: 426 components
+NORM syft   sb-py-loose: 126 components
+NORM syft   sb-py-pinned: 129 components
+NORM syft   tomcat: 187 components
+NORM syft   ubuntu: 92 components
+NORM trivy  alpine: 14 components
+NORM trivy  debian: 88 components
+NORM trivy  distroless: 7 components
+NORM trivy  node: 334 components
+NORM trivy  python: 106 components
+NORM trivy  sb-java-springboot: 181 components
+NORM trivy  sb-node-lock: 420 components
+NORM trivy  sb-node-nolock: 425 components
+NORM trivy  sb-py-loose: 119 components
+NORM trivy  sb-py-pinned: 122 components
+NORM trivy  tomcat: 183 components
+NORM trivy  ubuntu: 92 components
+NORM cdxgen alpine: 17 components
+NORM cdxgen debian: 129 components
+NORM cdxgen distroless: 9 components
+NORM cdxgen node: 341 components
+NORM cdxgen python: 156 components
+NORM cdxgen sb-java-springboot: 246 components
+NORM cdxgen sb-node-lock: 423 components
+NORM cdxgen sb-node-nolock: 423 components
+NORM cdxgen sb-py-loose: 178 components
+NORM cdxgen sb-py-pinned: 174 components
+NORM cdxgen tomcat: 249 components
+NORM cdxgen ubuntu: 135 components
+.venv/bin/python scripts/measure.py
+      tool    eco         level    tp   fp  fn  precision  recall     f1
+0   cdxgen    apk          name    14    3   0      0.824   1.000  0.903
+1   cdxgen    apk  name+version    14    3   0      0.824   1.000  0.903
+2   cdxgen    deb          name  1053  436   0      0.707   1.000  0.828
+3   cdxgen    deb  name+version  1053  436   0      0.707   1.000  0.828
+4   cdxgen  maven          name    37    0   1      1.000   0.974  0.987
+5   cdxgen  maven  name+version    37    0   1      1.000   0.974  0.987
+6   cdxgen    npm          name   691    0   0      1.000   1.000  1.000
+7   cdxgen    npm  name+version   798    0   0      1.000   1.000  1.000
+8   cdxgen   pypi          name    32    0   0      1.000   1.000  1.000
+9   cdxgen   pypi  name+version    32    5   0      0.865   1.000  0.928
+10    syft    apk          name    14    0   0      1.000   1.000  1.000
+11    syft    apk  name+version    14    0   0      1.000   1.000  1.000
+12    syft    deb          name  1053    0   0      1.000   1.000  1.000
+13    syft    deb  name+version  1053    0   0      1.000   1.000  1.000
+14    syft  maven          name    36    4   2      0.900   0.947  0.923
+15    syft  maven  name+version    36    4   2      0.900   0.947  0.923
+16    syft    npm          name   691    0   0      1.000   1.000  1.000
+17    syft    npm  name+version   798    0   0      1.000   1.000  1.000
+18    syft   pypi          name    32    0   0      1.000   1.000  1.000
+19    syft   pypi  name+version    32    0   0      1.000   1.000  1.000
+20   trivy    apk          name    14    0   0      1.000   1.000  1.000
+21   trivy    apk  name+version    14    0   0      1.000   1.000  1.000
+22   trivy    deb          name  1053    0   0      1.000   1.000  1.000
+23   trivy    deb  name+version  1053    0   0      1.000   1.000  1.000
+24   trivy  maven          name    38    0   0      1.000   1.000  1.000
+25   trivy  maven  name+version    38    0   0      1.000   1.000  1.000
+26   trivy    npm          name   691    0   0      1.000   1.000  1.000
+27   trivy    npm  name+version   798    0   0      1.000   1.000  1.000
+28   trivy   pypi          name    32    0   0      1.000   1.000  1.000
+29   trivy   pypi  name+version    32    0   0      1.000   1.000  1.000
+.venv/bin/python scripts/determinism.py
+                image    tool  runs            sizes  identical  max_symdiff
+0  sb-java-springboot    syft     4  184/184/184/184       True            0
+1  sb-java-springboot   trivy     4  181/181/181/181       True            0
+2  sb-java-springboot  cdxgen     4  237/237/237/237       True            0
+3        sb-node-lock    syft     4  381/381/381/381       True            0
+4        sb-node-lock   trivy     4  380/380/380/380       True            0
+5        sb-node-lock  cdxgen     4  419/419/419/419       True            0
+6         sb-py-loose    syft     4  121/121/121/121       True            0
+7         sb-py-loose   trivy     4  119/119/119/119       True            0
+8         sb-py-loose  cdxgen     4  172/172/172/172       True            0
+        count  median   mean   min    max
+tool                                     
+cdxgen     21   11.72  14.11  1.78  24.74
+syft       21    2.92   3.19  1.25   5.18
+trivy      21    0.60   4.36  0.42  78.16
+.venv/bin/python scripts/failures.py
+tool                                                                                syft  trivy  cdxgen
+pattern                                                                                                
+F1 OS source/origin package reported as installed package                              0      0     439
+F2 manifest version range reported as version (requirements.txt)                       0      0       5
+F3 synthesized/incorrect Maven groupId (jar lacks pom.properties)                     20      0       0
+F4 JDK-internal jar reported as Maven package (jrt-fs)                                 2      0       0
+F5 nested jar inside fat jar missed                                                    2      0       1
+F6 non-package artifact without PURL (e.g. bundled .exe launchers)                    18      0       0
+F7 duplicate (eco,name,version) entries (mostly legitimate multiple install paths)   132    117      56
+F8 devDependency (in lock, not installed) reported                                     0      0       0
+P1 language runtime binary detected (node/python/openjdk) [beyond GT]                  8      0       4
+nested jars 37, without pom.properties 17
+.venv/bin/python scripts/figures.py
+figures written: ['fig1_recall_precision_by_eco.pdf', 'fig1_recall_precision_by_eco.png', 'fig2_upset_overlap.pdf', 'fig2_upset_overlap.png', 'fig3_f1_heatmap.pdf', 'fig3_f1_heatmap.png']
+.venv/bin/python scripts/tables.py
+142 macros; tables: ['by_eco.tex', 'corpus.tex', 'failures.tex', 'fields.tex', 'per_image.tex']
